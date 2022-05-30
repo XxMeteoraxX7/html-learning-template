@@ -3,9 +3,22 @@
   color: rgb(255, 255, 255);
 }
 
+html,body {
+  margin:0;
+  padding:0;
+  }
+
 body {
   background: linear-gradient(darkblue, rgb(116, 202, 231), darkblue);
   font-family: "Open Sans", sans-serif;
+  width: 100%;
+  min-width: 940px;
+}
+
+header {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .aecp-banner {
@@ -127,10 +140,11 @@ width: 50%;
 }
 
 #contact {
+margin-left: auto;
+margin-right: auto;
   border: .125rem groove white;
   line-height: 3em;
   background: radial-gradient(darkblue, black);
-  width: 100%;
 }
 
 #contact h3 {
