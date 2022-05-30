@@ -129,9 +129,8 @@ width: 50%;
 #contact {
   border: .125rem groove white;
   line-height: 3em;
-  margin: 1em;
   background: radial-gradient(darkblue, black);
-  min-width: 380px;
+  width: 100%;
 }
 
 #contact h3 {
