@@ -23,6 +23,7 @@ header {
 
 .aecp-banner {
   width: 100%;
+  border: .125rem groove white;
 }
 
 fieldset {
@@ -44,6 +45,7 @@ a:hover {
 
 .banner {
   width: 100%;
+  border: .125rem groove white;
 }
 
 h1, h2, p {
@@ -110,6 +112,7 @@ h1, h2, p {
 margin-left: auto;
 margin-right: auto;
 width: 50%;
+border: .125rem groove white;
 }
 
 .containers {
