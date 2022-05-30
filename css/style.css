@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background: linear-gradient(darkblue, rgb(116, 202, 231), darkblue);
+  font-family: "Open Sans", sans-serif;
+}
+
+.aecp-banner {
+  width: 100%;
+}
+
+fieldset {
+  padding: 1.5rem .75rem;
+  margin: .75rem;
+  border: .125rem groove white;
+}
+
+legend {
+  font-size: 1.25rem;
+}
+
+a {
+  color: yellow;
+}
+a:hover {
+  background: black;
+}
+
+.banner {
+  width: 100%;
+}
+
+h1, h2, p {
+  border: .125rem groove white;
+  padding: .625rem;
+}
+
+.html-container {
+  position: relative;
+}
+
+.html-container-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.head {
+  position: relative;
+}
+
+.head-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.body {
+  position: relative;
+}
+
+.body-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.header {
+  position: relative;
+}
+
+.header-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.section {
+  position: relative;
+}
+
+.section-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.content-photo {
+  position: relative;
+}
+
+.content-photo-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.contentimg {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.containers {
+  position: relative;
+}
+
+.containers-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.hyperlink {
+  position: relative;
+}
+
+.hyperlink-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+#contact {
+  border: .125rem groove white;
+  line-height: 3em;
+  margin: 1em;
+  background: radial-gradient(darkblue, black)
+}
+
+#contact h3 {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#contact li {
+  display: inline-block;
+  width: 33.3333333333%;
+  margin-right: -.25rem;
+  font-size: 1.4rem;
+}
+
+#contact a {
+  display: block;
+  text-decoration: none;
+}
+
+#contact p {
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1rem;
+}
